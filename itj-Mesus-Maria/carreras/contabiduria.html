@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabiduria - Instituto Superior</title>
+    <link rel="stylesheet" href="/carreras/css/style.css">
+    <link rel="shortcut icon" href="/img/logo/logo.ico" type="image/x-icon" />
+    
+</head>
+<style>
+    .hero{
+         background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(52, 152, 219, 0.8)),
+                        url('../img/Contador-general-portada.jpg') center/cover;
+    }
+</style>
+<body> 
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="nav-inner">
+                <div class="logo-container">
+                    <div class="logo-img">
+                        <img src="/img/logo.jpeg" alt="Logo Instituto" />
+                    </div>
+                    <div class="logo-text">
+                        <a href="/index.html" style="color: inherit; text-decoration: none;">INSTITUTO TECNOLOGICO JESUS MARIA</a>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#carrera">LA CARRERA</a></li>
+                    <li><a href="#plan">MALLA CURRICULAR</a></li>
+                    <li><a href="#ubicacion">UBICACION</a></li>
+                    <li><a href="#inscripcion">INSCRIPCION</a></li>
+                </ul>
+                <div class="hamburger" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Menú móvil -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#inicio" onclick="closeMobileMenu()">Inicio</a></li>
+                <li><a href="#carrera" onclick="closeMobileMenu()">La Carrera</a></li>
+                <li><a href="#plan" onclick="closeMobileMenu()">Plan de Estudios</a></li>
+                <li><a href="#ubicacion" onclick="closeMobileMenu()">Ubicación</a></li>
+                <li><a href="#inscripcion" onclick="closeMobileMenu()">Inscripción</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Contaduría General</h1>
+            <p>Conviértete en pieza clave en la gestión financiera de organizaciones modernas. Transforma tu futuro profesional formándote en contabilidad con enfoque actualizado y preparación para los desafíos del sector económico actual.</p>
+            <a href="#inscripcion" class="cta-button">¡Inscríbete Ahora!</a>
+        </div>
+    </section>
+
+    <!-- Información de la Carrera -->
+    <section id="carrera" class="section">
+        <h2>¿Por qué estudiar Sistemas Informaticos?</h2>
+        <div class="career-info">
+            <div class="info-card fade-in">
+                <h3>🎓 Información General</h3>
+                <ul>
+                    <li><strong>Duración:</strong> 3 años</li>
+                    <li><strong>Modalidad:</strong> Presencial</li>
+                    <li><strong>Título:</strong> Técnico Superior en Contaduría</li>
+                    <li><strong>Horarios:</strong> Tarde y Noche</li>
+                    
+                </ul>
+            </div>
+            <div class="info-card fade-in">
+                <h3>💼 Campo Laboral</h3>
+                <ul>
+                    <li>Contador/a en empresas privadas y públicas</li>
+                    <li>Analista de costos</li>
+                    <li>Auditor/a</li>
+                    <li>Consultor/a financiero</li>
+                    <li>Responsable de gabinete contable</li>
+                </ul>
+            </div>
+            <div class="info-card fade-in">
+                <h3>🛠️ Competencias y áreas de aprendizaje</h3>
+                <ul>
+                    <li>Contabilidad general, de costos, de sociedades, bancaria y cooperativa</li>
+                    <li>Sistemas tributarios y legislación laboral</li>
+                    <li>Herramientas informáticas para la gestión contable</li>
+                    <li>Análisis e interpretación de estados financieros</li>
+                    <li>Economía general y emprendimiento productivo</li>
+                </ul>
+            </div>
+            <div class="info-card fade-in">
+                <h3>📈 Beneficios Únicos</h3>
+                <ul>
+                    <li>Laboratorios informáticos para prácticas contables</li>
+                    <li>Prácticas en empresas líderes</li>
+                    <li>Certificaciones internacionales</li>
+                    <li>Bolsa de trabajo exclusiva</li>
+                    <li>Mentorías personalizadas</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plan de Estudios -->
+    <section id="plan" class="section curriculum">
+        <h2>Malla Curricular</h2>
+        <div class="curriculum-grid">
+            <div class="semester-card fade-in">
+                <h4>🥇 PRIMER AÑO</h4>
+                <ul>
+                    <li>• Contabilidad I</li>
+                    <li>• Matematica Financiera</li>
+                    <li>• Informatica Contable</li>
+                    <li>• Administración General</li>
+                    <li>• Legislación Laboral <span style="display: block; margin-left: 10px;">y Seguridad Social Aplicada</span></li>
+                    <li>• Economia General Aplicada</li>
+                    <li>• Documentos Comerciales y Mercantiles</li>
+                    <li>• Estadistica Aplicada</li>
+                    <li>• Ingles Técnico</li>
+                </ul>
+            </div>
+            <div class="semester-card fade-in">
+                <h4>🥈 SEGUNDO AÑO</h4>
+                <ul>
+                    <li>• Contabilidad II</li>
+                    <li>• Contabilidad de Costos I</li>
+                    <li>• Contabilidad de Sociedades</li>
+                    <li>• Contabilidad de Seguros</li>
+                    <li>• Contabilidad Bancaria <span style="display: block; margin-left: 10px;">y Cooperativas</span></li>
+                    <li>• Emprediemiento Productivo</li>
+                    <li>• Sistema Tributario</li>
+                </ul>
+            </div>
+            <div class="semester-card fade-in">
+                <h4>🥉 TERCER AÑO</h4>
+                <ul>
+                    <li>• Contabilidad Agropecuaria</li>
+                    <li>• Contabilidad de Costos II</li>
+                    <li>• Contabilidad Gubernamental</li>
+                    <li>• Contabilidad Extractiva <span style="display: block; margin-left: 10px;">(Nimera Petrolera y Forestal)</span></li>
+                    <li>• Contabilidad de servicio <span style="display: block; margin-left: 10px;">(Construcción, Hotelería y Tranasporte)</span></li>
+                    <li>• Gabinete Contable Informático</li>
+                    <li>• Analisis e Interpretaciones de <span style="display: block; margin-left: 10px;">Estados Financieros</span></li>
+                    <li>• Taller de Modalidad de Graduación</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación -->
+    <section id="ubicacion" class="section location-section">
+        <h2>Nuestra Ubicación</h2>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1597.1338957324433!2d-63.18206818185156!3d-17.80832750433029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e83788d783d7%3A0x7e5f4c93609b2afa!2sInstituto%20Tecnol%C3%B3gico%20%22Jesus%20Maria%22%20Fe%20y%20Alegr%C3%ADa!5e0!3m2!1ses-419!2sbo!4v1750576003062!5m2!1ses-419!2sbo"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div class="contact-info">
+            <div class="contact-card">
+                <h4>📍 Dirección</h4>
+                <p>Av. Santos Dumont<br>Santa Cruz, Bolivia</p>
+            </div>
+            
+            
+            <div class="contact-card">
+                <h4>🕒 Horarios</h4>
+                <p>Turno Tarde: Lun - Vie: 14:30 - 18:00<br>Turno Noche: Lun - Vie: 18:45 - 22:00 <br>Sab: 14:30 - 18:00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Inscripción -->
+    <section id="inscripcion" class="section">
+        <h2>Formulario de Inscripción</h2>
+        <div class="contact-form">
+            <form id="inscriptionForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <!--<div class="form-group">
+                        <label for="email">Correo Electrónico *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>-->
+                    <div class="form-group">
+                        <label for="telefono">Teléfono/Celular *</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edad">Edad</label>
+                        <input type="number" id="edad" name="edad" min="16" max="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="ciudad">Ciudad de Residencia</label>
+                        <input type="text" id="ciudad" name="ciudad">
+                    </div>
+                    <!--<div class="form-group">
+                        <label for="modalidad">Modalidad Preferida</label>
+                        <select id="modalidad" name="modalidad">
+                            <option value="presencial">Presencial</option>
+                            <option value="virtual">Virtual</option>
+                            <option value="semipresencial">Semipresencial</option>
+                        </select>
+                    </div>-->
+                    <div class="form-group">
+                        <label for="turno">Turno de Preferencia</label>
+                        <select id="turno" name="turno">
+                            <option value="mañana">Tarde</option>
+                            <option value="noche">Noche</option>
+                        </select>
+                    </div>
+                    <!--<div class="form-group">
+                        <label for="experiencia">Experiencia Previa</label>
+                        <select id="experiencia" name="experiencia">
+                            <option value="ninguna">Sin experiencia</option>
+                            <option value="basica">Básica</option>
+                            <option value="intermedia">Intermedia</option>
+                            <option value="avanzada">Avanzada</option>
+                        </select>
+                    </div>-->
+                </div>
+                <div class="form-group full-width">
+                    <label for="motivacion">¿Por qué quieres estudiar Contabilidad General?</label>
+                    <textarea id="motivacion" name="motivacion" rows="4" placeholder="Cuéntanos tus motivaciones y objetivos..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Solicitud de Inscripción</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Instituto Superior - Ingeniería en Sistemas</p>
+        <p>Tu futuro tecnológico comienza aquí | La Paz, Bolivia</p>
+    </footer>
+
+    <!-- Botón flotante WhatsApp -->
+    <a href="https://wa.me/59177463268?text=Hola,%20quiero%20información%20sobre%20Ingeniería%20en%20Sistemas" 
+       class="whatsapp-float" target="_blank">
+        <span class="whatsapp-icon">📱</span>
+        Pide Información
+    </a>
+
+    <!-- Notificación -->
+    <div id="notification" class="notification">
+        ¡Solicitud enviada exitosamente! Te contactaremos pronto.
+    </div>
+
+    <script src="/carreras/js/javascript.js"> 
+       
+    </script>
+        
+</body>
+    
