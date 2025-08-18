@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instituto jesus maria fe alegria sc.</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/logo/logo.ico" type="image/x-icon" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="nav-inner">
+                <div class="logo-container">
+                    <div class="logo-img">
+                        <img src="/img/logo.jpeg" alt="Logo Instituto" />
+                    </div>
+                    <div class="logo-text">
+                        <a href="index.html" style="color: inherit; text-decoration: none;">INSTITUTO TECNOLOGICO JESUS MARIA</a>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#vision-mision">QUINES SOMOS</a></li>
+                    <li><a href="#carreras">CARRERAS</a></li>
+                    <li><a href="/pastoral2.html">PASTORAL</a></li>
+                    <li><a href="#ubicacion">UBICACION</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+                <div class="hamburger" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Menú móvil -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#inicio" onclick="closeMobileMenu()">INICIO</a></li>
+                <li><a href="#carrera" onclick="closeMobileMenu()">QUIENES SOMOS</a></li>
+                <li><a href="#plan" onclick="closeMobileMenu()">CARRERAS</a></li>
+                <li><a href="/pastoral2.html" onclick="closeMobileMenu()">PASTORAL</a></li>
+                <li><a href="#ubicacion" onclick="closeMobileMenu()">UBICACION</a></li>
+                <li><a href="#inscripcion" onclick="closeMobileMenu()">INSCRIPCION</a></li>
+            </ul>
+        </div>
+    </header>
+    
+
+    <!-- Carrusel -->
+    <section id="inicio" class="carousel-container">
+ 
+        <div class="carousel">
+            <div class="carousel-slide">
+                <img src="img/imagen1.jpg">
+                <div class="carousel-content">
+                    <h2>Excelencia Académica</h2>
+                    <p>Formamos profesionales del futuro con los más altos estándares educativos</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="img/imagen2.jpg">
+                <div class="carousel-content">
+                    <h2>Innovación y Tecnología</h2>
+                    <p>Laboratorios modernos y tecnología de vanguardia para tu formación</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="img/imagen3.jpg">
+                <div class="carousel-content">
+                    <h2>Tu Futuro Profesional</h2>
+                    <p>Únete a miles de graduados exitosos que transforman el mundo</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="img/imagen4.jpg">
+                <div class="carousel-content">
+                    <h2>Ambiente de Estudio</h2>
+                    <p>Espacios diseñados para potenciar tu aprendizaje y crecimiento</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-nav prev" onclick="changeSlide(-1)">‹</button>
+        <button class="carousel-nav next" onclick="changeSlide(1)">›</button>
+        <div class="carousel-indicators">
+            <span class="indicator active" onclick="currentSlide(1)"></span>
+            <span class="indicator" onclick="currentSlide(2)"></span>
+            <span class="indicator" onclick="currentSlide(3)"></span>
+            <span class="indicator" onclick="currentSlide(4)"></span>
+        </div>
+    </section>
+<br>
+    <!-- Visión y Misión -->
+    <section id="vision-mision" class="section">
+        <h2>QUIENES SOMOS</h2>
+        <div class="vision-mission">
+            <div class="vision fade-in">
+                <h3>🔭 Visión</h3>
+                <!--<p>Ser reconocidos como el instituto líder en formación técnica y profesional, destacándonos por la excelencia académica, la innovación tecnológica y el compromiso con el desarrollo sostenible de nuestra comunidad, formando profesionales competentes y éticos que contribuyan al progreso de la sociedad.</p>-->
+                <p>Fortalecer el sistema educativo superior estatal, dando capacitación integral a un costo económico que responda a las necesidades de las familias Bolivianas.</p>
+            </div>
+            <div class="mission fade-in">
+                <h3>🎯 Misión</h3>
+                <!--<p>Brindar educación superior de calidad a través de programas académicos innovadores, metodologías de enseñanza modernas y un ambiente de aprendizaje inclusivo. Nos comprometemos a formar profesionales íntegros, competentes y emprendedores que respondan a las necesidades del mercado laboral y contribuyan al desarrollo de la región.</p>-->
+                <p>Formar profesionales hombres y mujeres identificados con su realidad Sociocultural, imbuidos de principios y valores cristianos , altamente capacitados para responder a las demandas de la comunidad, contribuyendo asi al desarrollo de la región del pais</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carreras -->
+    <section id="carreras" class="section">
+        <h2>CARRERAS</h2>
+        <div class="programs-grid">
+            <div class="program-card fade-in">
+                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Ingeniería">
+                <div class="program-content">
+                    <span class="program-badge">Carrera</span>
+                    <h3><b><a href="/carreras/sistema.html" style="color: inherit; text-decoration: none;">Sistema informatico</a></b></h3>
+                    <p>Forma profesionales capaces de diseñar, desarrollar e implementar soluciones tecnológicas innovadoras. Duración: 3 años. Presencial .</p>
+                </div>
+            </div>
+            <div class="program-card fade-in">
+                <img src="/img/Contador-general-portada.jpg" alt="Administración">
+                <div class="program-content">
+                    <span class="program-badge">Carrera</span>
+                    <h3><b><a href="/carreras/contabiduria.html" style="color: inherit; text-decoration: none;">Contabiduria General</a></b></h3>
+                    <p>Desarrolla líderes empresariales con visión estratégica y habilidades gerenciales. Duración: 4 años. Enfoque en emprendimiento y gestión moderna.</p>
+                </div>
+            </div>
+            <div class="program-card fade-in">
+                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Enfermería">
+                <div class="program-content">
+                    <span class="program-badge">Carrera</span>
+                    <h3><b><a href="/carreras/secretariado.html" style="color: inherit; text-decoration: none;">Secretariado Ejecutivo</a></b> </h3>
+                    <p>Forma profesionales en salud comprometidos con el cuidado integral del ser humano. Duración: 4 años. Prácticas en hospitales reconocidos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cursos -->
+    <section id="cursos" class="section" style="background: #f8f9fa;">
+        <h2>CURSOS DE CAPACITACIÓN</h2>
+        <div class="programs-grid">
+            <div class="program-card fade-in">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Marketing Digital">
+                <div class="program-content">
+                    <span class="program-badge">CURSO</span>
+                    <h3><b>OPERADOR EN COMPUTADORAS BÁSICO</b></h3>
+                    <p>Domina el manejo de paquetes ofimáticos, sistemas operativos y herramientas básicas de computación. Duración: 6 meses. Certificación internacional incluida.</p>
+                </div>
+            </div>
+            <div class="program-card fade-in">
+                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Programación">
+                <div class="program-content">
+                    <span class="program-badge">CURSO</span>
+                    <h3><b>PROGRAMACIÓN</b></h3>
+                    <p>Aprende a desarrollar aplicaciones web completas utilizando el framework Laravel y tecnologías modernas de PHP. Duración: 3 meses. Proyecto final incluido en portafolio.</p>
+                </div>
+            </div>
+            <div class="program-card fade-in">
+                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Diseño Gráfico">
+                <div class="program-content">
+                    <span class="program-badge">CURSO</span>
+                    <h3><b>OPERADOR EN COMPUTADORAS AVANZADO</b></h3>
+                    <p>Desarrolla habilidades avanzadas en manejo de datos, análisis y automatización con Microsoft Excel. Duración: 6 meses. Software profesional incluido en la capacitación.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación -->
+    <section id="ubicacion" class="section location-section">
+        <h2>UBICACIÓN</h2>
+        <p style="text-align: center; margin-bottom: 2rem; font-size: 1.1rem; color: #7f8c8d;">
+            Visítanos en nuestra instalaciones, en la cuidad de Santa Cruz de la Sierra
+        </p>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1597.1338957324433!2d-63.18206818185156!3d-17.80832750433029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e83788d783d7%3A0x7e5f4c93609b2afa!2sInstituto%20Tecnol%C3%B3gico%20%22Jesus%20Maria%22%20Fe%20y%20Alegr%C3%ADa!5e0!3m2!1ses-419!2sbo!4v1750576003062!5m2!1ses-419!2sbo"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+            <p><strong>Dirección:</strong> Av. Santos Dumont entre segundo y 3 anillo</p>
+            <p><strong>Teléfono:</strong> +591 77463268</p>
+            <!--<p><strong>Email:</strong> info@instituto.edu.bo</p>-->
+            <p><strong>Email:</strong> <a href="mailto:info@instituto.edu.bo?subject=Consulta&body=Hola, me gustaría recibir información." style="color: inherit; text-decoration: none;">info@instituto.edu.bo</a></p>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="section">
+        <h2>LLENA EL FORMULARIO</h2>
+        <div class="contact-form">
+            <form id="contactForm">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="nombre">Nombre Completo *</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <!--<div class="form-group">
+                        <label for="email">Correo Electrónico *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>-->
+                    <div class="form-group">
+                        <label for="telefono">Teléfono *</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edad">Edad</label>
+                        <input type="number" id="edad" name="edad" min="16" max="80">
+                    </div>
+                    <div class="form-group">
+                        <label for="interes">Área de Interés *</label>
+                        <select id="interes" name="interes" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="ingenieria">Sistemas Informáticos</option>
+                            <option value="administracion">Contaduría General</option>
+                            <option value="enfermeria">Secretariado Ejecutivo</option>
+                            <option value="marketing">Operador en Computadoras Básico</option>
+                            <option value="programacion">Operador en Computadoras Avanzado</option>
+                            <option value="diseno">Programación</option>
+                        </select>
+                    </div>
+                    <!--<div class="form-group">
+                        <label for="modalidad">Modalidad Preferida</label>
+                        <select id="modalidad" name="modalidad">
+                            <option value="presencial">Presencial</option>
+                            <option value="virtual">Virtual</option>
+                            <option value="semipresencial">Semipresencial</option>
+                        </select>
+                    </div>-->
+                </div>
+                <div class="form-group full-width">
+                    <label for="mensaje">Mensaje Adicional</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos sobre tus objetivos y expectativas..."></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Enviar Solicitud</button>
+                <div class="whatsapp-button">
+
+                    <a href="https://wa.me/59177463268?text=Hola,%20Quiero%20información%20sobre%20las%20en%20carreras" target="_blank" title="Enviar mensaje por WhatsApp">
+                        <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" />
+                        <span>Escríbenos por WhatsApp</span>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Instituto de Educación Superior. Todos los derechos reservados.</p>
+        <p>Formando profesionales para el futuro | Santa Cruz, Bolivia</p>
+    </footer>
+
+    <!-- Botón flotante -->
+    <button class="floating-btn" onclick="scrollToTop()">
+        📋 
+    </button>
+
+    <!-- Notificación -->
+    <div id="notification" class="notification">
+        ¡Formulario enviado exitosamente! Te contactaremos pronto.
+    </div>
+
+    <script src="/js/Js.js"></script>
+</body>
+</html>

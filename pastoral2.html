@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pastoral</title>
+    <link rel="stylesheet" href="/css/pastoral.css">
+    <link rel="shortcut icon" href="/img/logo/logo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <!--<div class="logo"><img src="logo.jpeg" height="65px" alt=""> Instituto Superior Jesus Maria</div>-->
+            <div class="nav-inner">
+                <div class="logo-container">
+                <div class="logo-img">
+                    <img src="/img/logo.jpeg" alt="Logo Instituto">
+                </div>
+                <div class="logo-text"><a href="/index.html" style="color: inherit; text-decoration: none;">INSTITUTO JESUS MARIA FE ALEGRIA</a></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="index.html#vision-mision">QUIENES SOMOS</a></li>
+                <li><a href="#carreras">CARRERAS</a></li>
+                <li><a href="#cursos">PASTORAL</a></li>
+                <li><a href="#convenios">CONVENIOS</a></li>
+                <li><a href="index.html#contacto">CONTACTO</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            </div>
+            
+        </nav>
+        <!-- Menú móvil -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#inicio" onclick="closeMobileMenu()">INICIO</a></li>
+                <li><a href="#vision-mision" onclick="closeMobileMenu()">QUIENES SOMOS</a></li>
+                <li><a href="#carreras" onclick="closeMobileMenu()">CARRERAS</a></li>
+                <li><a href="#cursos" onclick="closeMobileMenu()">PASTORAL</a></li>
+                <li><a href="#ubicacion" onclick="closeMobileMenu()">Convenios</a></li>
+                <li><a href="#contacto" onclick="closeMobileMenu()"></a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div id="inicio" class="container">
+            <h1>CONGREGACIÓN DE RELIGIOSAS JESÚS MARÍA</h1>
+            <p class="subtitulo">
+            Generoso eres padre celestial por permitir conocerte por medio del esfuerzo<br>
+            de Santa Claudina Thévenet por eso siempre te estaré agradecido
+            </p>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/imagen1.jpg" alt="Filosofía">
+                    <h3>Filosofía</h3>
+                    <p>Agradecemos a Dios por la infinita misericordia, por el amor que depositó en Claudina</p>
+                </div>
+                <div class="card">
+                    <img src="img/claudina.jpg" alt="Misión">
+                    <h3>Misión</h3>
+                    <p>FUNDADORA DE CONGREGACIÓN DE RELIGIOSAS JESÚS MARÍA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección Claudina Thévenet -->
+        <section class="claudina-section">
+            <div class="claudina-content">
+                <div class="claudina-image">
+                    <img src="https://www.rjmgeneral.org/wp-content/uploads/2014/07/oRACION-cLAUDINA-729x1024.jpg" alt="Claudina Thévenet">
+                </div>
+                <div class="claudina-text">
+                    <h2>HISTORIA DE CLAUDINA THÉVENET</h2>
+                    <p>Claudina Thévenet (1774-1837) fue una religiosa francesa, fundadora de la Congregación de Jesús-María. Nació en Lyon durante un período de gran turbulencia social y política en Francia.</p>
+                    <p>Desde muy joven, Claudina mostró una profunda sensibilidad hacia los más necesitados. Su vida cambió radicalmente cuando presenció la ejecución de sus dos hermanos durante la Revolución Francesa, experiencia que marcó profundamente su vocación de servicio.</p>
+                    <p>Dedicó su vida a la educación de niñas y jóvenes en situación de vulnerabilidad, fundando escuelas y centros de formación. Su carisma se centró en la educación integral de la persona, combinando la formación académica con la espiritual.</p>
+                    <p>Fue beatificada por el Papa Juan Pablo II en 1981 y canonizada en 1993, convirtiéndose en Santa Claudina Thévenet. Su legado continúa inspirando la labor educativa en instituciones de todo el mundo.</p>
+                </div>
+            </div>
+        </section>
+        <div class="jovenes-text">
+            "JÓVENES CAMINANDO CON CLAUDINA"
+        </div>
+        <!-- Carrusel de imágenes -->
+       <section class="carousel-section">
+
+            <h2 style="text-align: center;  color: #2c3e50; margin-bottom: 2rem;">Nuestra Comunidad</h2>
+
+            <div class="content-all">
+                <div class="content-carrousel">
+
+                    <figure><img class="img-fluid" src="/img/imagen2.jpg" ></figure>
+
+                    <figure><img class="img-fluid" src="/img/imagen4.jpg" ></figure>
+
+                    <figure><img class="img-fluid" src="/img/imagen3.jpg" ></figure>
+
+                    <figure><img class="img-fluid" src="/img/imagen2.jpg" ></figure>
+
+                    <figure><img class="img-fluid" src="/img/imagen4.jpg" ></figure>
+
+                    <figure><img class="img-fluid" src="/img/imagen2.jpg" ></figure>
+
+                    <figure><img class="img-fluid" src="/img/imagen4.jpg" ></figure>
+
+                    <figure><img class="img-fluid" src="/img/imagen1.jpg" ></figure>
+
+                    <figure><img class="img-fluid" src="/img/imagen3.jpg" ></figure>
+
+                    <figure><img class="img-fluid" src="/img/imagen2.jpg"></figure>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- convenios  -->
+    <section id="convenios" class="section" style="background: #f8f9fa;">
+    <h2>Nuestros Convenios</h2>
+    <div class="programs-grid">
+        <div class="program-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtXJFQUvNEvrqqg-2GRoLJPIPxCDAcDtRH8A&s" alt="Universidad UTEPSA">
+    <div class="program-content">
+        <h3>Universidad Cumbre</h3>
+    </div>
+</div>
+
+
+        <div class="program-card">
+    <img src="https://media.licdn.com/dms/image/v2/D4E0BAQFCloaNojIIKw/company-logo_200_200/company-logo_200_200/0/1737155615680/utepsa_logo?e=2147483647&v=beta&t=RD5tCMQT4eiXKEcuWaVJWX1YZ8cj4eJs3veTcedrd2Q" alt="Universidad UTEPSA">
+    <div class="program-content">
+        <h3>Universidad UTEPSA</h3>
+    </div>
+</div>
+
+
+        <div class="program-card">
+    <img src="https://tja.ucb.edu.bo/wp-content/uploads/2020/09/cropped-logo-UCB.png" alt="Universidad UTEPSA">
+    <div class="program-content">
+        <h3>Universidad Catolica</h3>
+    </div>
+</div>
+
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 Instituto de Educación Superior. Todos los derechos reservados.</p>
+        <p>Formando profesionales para el futuro | Santa Cruz, Bolivia</p>
+    </footer>
+    <script src="/js/Js.js"></script>
+</body>
+</html>
